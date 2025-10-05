@@ -61,9 +61,12 @@ const style = StyleSheet.create({
     width: 300,
   },
   iconButton: {
+    height: 40,
+    width: 40,
     marginTop: 60,
-    padding: 8,
-    borderRadius: 20,
+    borderRadius: 100,
+    alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: '#F07979',
   },
 });
